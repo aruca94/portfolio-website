@@ -1,0 +1,173 @@
+body {
+    background-color: #FAFAFA;
+    /* margin: 0 auto; */
+    /* width: 69.438rem; */
+    padding: 0;
+    /* I put the public sans font and height here. is this right? */
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.875rem;
+    color: #33323D;
+}
+
+header, section, article, .footer-wrapper {
+    width: 69.438rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    /* border: 2px solid #33323D; */
+    color: #33323D;
+    opacity: .7;
+}
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.625rem;
+}
+
+header {
+    /* margin: 0; */
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+header div {
+    justify-self: start;
+}
+
+header nav a {
+    margin-left: 1.5rem;
+    /* text-decoration: none; */
+}
+
+header nav a:first-child {
+    color: #5FB4A2;
+}
+
+header nav a:nth-child(2), header nav a:nth-child(3) {
+    color: #33323D;
+}
+
+nav {
+    justify-self: end;
+    align-self: center;
+}
+/* hero image is added as a background image instead of adding an image to the html */
+.hero {
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 37.5rem;
+    background-image: url("./images/homepage/desktop/image-homepage-hero.jpg");
+    margin: 5em auto 10em auto;
+}
+
+.name-intro {
+    display:flex;
+    flex-wrap: wrap;
+    width: 27.813rem;
+    height: 22.313rem;
+    background-color: #FAFAFA;
+    align-self: flex-end;
+}
+
+.button {
+    background-color: #203A4C;
+    margin: 0;
+    width: 12.5rem;
+    height: 3rem;
+    align-self: flex-end;
+    display: flex;
+}
+
+.button svg {
+    background-color: #33323D;
+
+    color: red;
+}
+
+.about-me {
+    display: flex;
+    align-content: center;
+    /* margin-top: 10em; */
+}
+
+.about-container {
+    border-top: .15em solid #EAEAEB;
+    border-bottom: .15em solid #EAEAEB;
+    flex-basis: 30%;
+    margin: 0 auto;
+ }
+
+ /* anchor buttons start */
+
+.about-container > a {
+    display: inline-block;
+    border: 2px solid #33323D;
+    /* width: 12.625em; */
+    /* height: 3em; */
+    /* background-color: black; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    padding: .5em 2.9em;
+    /* color:#33323D;
+    opacity: .7; */
+}
+
+
+/* anchor buttons end */
+.rectangle {
+    width: 50%;
+    border-top: 2px solid #EAEAEB;
+}
+
+.contact > h2 {
+    width: 30%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.contact > a {
+    padding: .45em 2.3em;
+    border: 2px solid #33323D;
+    /* text-decoration: none; */
+    /* color: #33323D;
+    opacity: .7; */
+}
+
+a:hover{
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+footer {
+    width: 100%;
+    background-color: #33323D;
+
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav  a{
+    color: #FAFAFA;
+    margin-right: 1em;
+}
+
+.footer-socials svg {
+    color: #FAFAFA;
+}
